@@ -1,0 +1,334 @@
+p {
+  font-family: "Kanit", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+main {
+  overflow-x: hidden;
+}
+main .side .sidebar {
+  width: 300px;
+  background-color: #040b14;
+  top: 0;
+  left: 0;
+  display: none;
+  position: absolute;
+  position: fixed;
+}
+main .side .sidebar .insidebar {
+  top: 0;
+  position: sticky;
+  height: 100vh;
+}
+main .side .sidebar .insidebar figure {
+  margin: 15px auto;
+  width: 140px;
+  height: 140px;
+  border: 8px solid #2c2f3f;
+  border-radius: 50%;
+}
+main .side .sidebar .insidebar figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .side .sidebar .insidebar h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .side .sidebar .insidebar h1 a {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+main .side .sidebar .insidebar .social-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+main .side .sidebar .insidebar .social-icon li {
+  display: flex;
+  justify-content: center;
+  margin-right: 8px;
+}
+main .side .sidebar .insidebar .social-icon li a {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #212431;
+  color: white;
+  line-height: 1;
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.7s;
+}
+main .side .sidebar .insidebar .social-icon li a:hover {
+  background-color: #149ddd;
+}
+main .side .sidebar .insidebar .social-icon li a i {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .side .sidebar .insidebar .navside {
+  padding-top: 20px;
+  height: 400px;
+}
+main .side .sidebar .insidebar .navside .end-side {
+  height: 400px;
+}
+main .side .sidebar .insidebar .navside .end-side li {
+  list-style-type: none;
+  margin: 7px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .side .sidebar .insidebar .navside .end-side li:first-child span {
+  color: white;
+}
+main .side .sidebar .insidebar .navside .end-side li:first-child i {
+  color: #149ddd;
+}
+main .side .sidebar .insidebar .navside .end-side li a {
+  color: #a8a9b4;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 0;
+  transition: 0.7s;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .side .sidebar .insidebar .navside .end-side li a span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+main .side .sidebar .insidebar .navside .end-side li a:hover i {
+  color: #149ddd;
+  transition: 0.7s;
+}
+main .side .sidebar .insidebar .navside .end-side li a:hover span {
+  color: white;
+  transition: 0.7s;
+}
+main .side .sidebar .insidebar .navside .end-side li a i {
+  font-size: 24px;
+  color: #6f7180;
+  padding-right: 8px;
+}
+@media screen and (min-width: 1024px) {
+  main .side .back {
+    background-attachment: fixed;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main .side .sidebar {
+    width: 339px;
+  }
+}
+main .side .right {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .side .right .back {
+  height: 100vh;
+  background-image: url(../img/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .side .right .back h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100vh;
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+}
+main .side .right .about {
+  padding: 0 20px;
+}
+main .side .right .about .title--about h2 {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 35px;
+  color: #173b6c;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+  border-bottom: 3px solid #149ddd;
+}
+main .side .right .about .title--about p {
+  width: 100%;
+}
+main .side .right .about .end-about figure img {
+  -o-object-fit: inherit;
+     object-fit: inherit;
+}
+main .side .right .about .end-about .my-about h3 {
+  font-size: 25px;
+  color: #173b6c;
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+}
+main .side .right .about .end-about .my-about div ul i {
+  color: #149ddd;
+  font-weight: 600;
+  font-size: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .side .right .about .end-about .my-about div ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  color: #5e5f60;
+  margin: 10px 0;
+}
+main .side .right .about .end-about .my-about div ul li strong {
+  color: #272829;
+}
+main .side .right .abouts {
+  padding: 20px;
+  background-color: #f5f8fd;
+}
+main .side .right .abouts .title--about h2 {
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #173b6c;
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
+  border-bottom: 3px solid #149ddd;
+}
+main .side .right .abouts .title--about .skill {
+  justify-content: center;
+  align-items: center;
+  margin-right: 80px;
+}
+main .side .right .abouts .title--about .skill span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+main .side .right .abouts .title--about .skill .val {
+  background-color: chartreuse;
+  width: 100%;
+  height: 10px;
+}
+main .side .right .port {
+  padding-left: 20px;
+  background-color: #f5f8fd;
+}
+main .side .right .port .my-port h1 {
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #173b6c;
+  border-bottom: 3px solid #149ddd;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .side .right .port .my-port .test a {
+  height: 250px;
+  border-radius: 20px;
+  display: flex;
+  margin: 10px 0;
+}
+main .side .right .port .my-port .test a figure {
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+}
+main .side .right .port .my-port .test a figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+main .side input {
+  display: none;
+}
+main .side #para + label {
+  top: 15px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+main .side #para + label .shape {
+  width: 30px;
+  height: 30px;
+  outline: none;
+  font-size: 30px;
+  color: #149ddd;
+  position: fixed;
+  opacity: 1;
+  right: 15px;
+  top: 15px;
+  z-index: 999;
+  line-height: 1;
+  border: 0;
+}
+main .side #para + label > .shapes {
+  width: 30px;
+  height: 30px;
+  outline: none;
+  color: black;
+  font-size: 30px;
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  right: 15px;
+  top: 15px;
+  z-index: 999;
+  line-height: 1;
+}
+main .side #para:checked + label > .shapes {
+  opacity: 1;
+  visibility: visible;
+}
+main .side #para:checked + label > .shape {
+  opacity: 0;
+}
+main .side #para:checked ~ .sidebar {
+  left: 0;
+  top: 0;
+  display: flex;
+}/*# sourceMappingURL=master.css.map */
